@@ -12,7 +12,10 @@ export default function Home({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>Im a student of Web 3 and Metaverse at PIAIC.</p>
+        <p>I'm a student of certified Web 3 and Metaverse at UMT Lahore by PIAIC.</p>
+        <p>Blog writer on latest next.js 13, visit below.</p>
+        <p>You can also visit my linked profile by using the below link.</p>
+        <Link href={'https://www.linkedin.com/in/ali-haider-72b40b236/'}>linkedin</Link>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
