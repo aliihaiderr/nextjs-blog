@@ -1,11 +1,11 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link'
 import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
-import Link from 'next/link'
 
 const name = 'Ali Haider'
-export const siteTitle = 'Blog Post'
+export const siteTitle = 'Blog Page'
 
 export default function Layout({ children, home }) {
   return (
